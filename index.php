@@ -6,12 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel='stylesheet' href='style.css'>
+        <link rel='stylesheet' href='hover.css'>
     </head>
     <body>
         <div class="pic">
             <img class='pic' src="Isometric-Assets_DTWebinar1.jpg." usemap="#image-map" class="map">
             <img class='buildings FEU' src='Buildings/FEU-Building.png'>
             <img class='buildings hospital' src='Buildings/hospital.png'>
+            <img class='buildings hospital' src='Buildings/LB-building.png'>
+            <img class='buildings lb_building' src='./Buildings/LB-building.png'>
         </div>
 
         

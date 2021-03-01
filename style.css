@@ -12,29 +12,30 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 320px;
+    width: 155px;
     border: 1px solid black;
 }
 
 .FEU {
     position: absolute;
-    top: 258px;
-    left: 220px;
+    top: 315px;
+    left: 310px;
 }
 
 .hospital {
     position: absolute;
-    top: 306px;
-    left: 635px;
+    width: 150px;
+    top: 400px;
+    left: 710px;
 }
 
-.FEU:hover {
-    transform: scale(1.1);
+.lb-building {
+    position: absolute;
+    width: 150px;
+    top: 400px;
+    left: 710px;
 }
 
-.hospital:hover {
-    transform: scale(1.1);
-}
 
 body {
     background-color: rgba(93,172,151,255);
