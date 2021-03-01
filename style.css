@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 .pic {
     position: relative;
     width: fit-content;
@@ -7,39 +5,122 @@
     margin-right: auto;
 }
 
-/* #main_map {
-    transform: scale(1.1);
-} */
+#main_map {
+    position: relative;
+    z-index: -100;
+}
 
 
 .buildings {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 155px;
     border: 1px solid black;
 }
 
 .FEU {
     position: absolute;
-    top: 315px;
-    left: 310px;
+    width: 190px;
+    top: 350px;
+    left: 340px;
 }
 
 .hospital {
     position: absolute;
-    width: 150px;
-    top: 400px;
-    left: 710px;
+    width: 160px;
+    top: 470px;
+    left: 820px;
 }
 
 .lb_building {
     position: absolute;
-    width: 140px;
-    top: 180px;
-    left: 577px;
+    width: 160px;
+    top: 200px;
+    left: 658px;
 }
 
+.apartment {
+    position: absolute;
+    width: 132px;
+    top: 575px;
+    left: 285px;
+}
+
+.blue_building {
+    position: absolute;
+    width: 110px;
+    top: 488px;
+    left: 85px;
+}
+
+.bakery {
+    position: absolute;
+    width: 120px;
+    top: 480px;
+    left: 220px;
+}
+
+.bank {
+    position: absolute;
+    width: 100px;
+    top: 280px;
+    left: 530px;
+}
+
+.building1 {
+    position: absolute;
+    width: 110px;
+    top: 566px;
+    left: 610px;
+}
+
+.building2 {
+    position: absolute;
+    width: 210px;
+    top: 410px;
+    left: 620px;
+}
+
+.building3 {
+    position: absolute;
+    width: 150px;
+    top: 190px;
+    left: 365px;
+}
+
+.building4 {
+    position: absolute;
+    width: 105px;
+    top: 495px;
+    left: 495px;
+    z-index: 100;
+}
+
+.building5 {
+    position: absolute;
+    width: 95px;
+    top: 380px;
+    left: 1100px;
+}
+
+.building6 {
+    position: absolute;
+    width: 95px;
+    top: 280px;
+    left: 990px;
+}
+
+.cafe {
+    position: absolute;
+    width: 95px;
+    top: 342px;
+    left: 872px;
+}
+
+.pharmacy_building {
+    position: absolute;
+    width: 120px;
+    top: 595px;
+    left: 700px;
+    z-index: 0;
+}
 
 body {
     background-color: rgba(93,172,151,255);
@@ -54,4 +135,8 @@ h1 {
     position: absolute;
     top:20px;
     left:10px;
+}
+
+.buildings:hover {
+    transform: scale(1.05);
 }
