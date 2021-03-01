@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-.pic {
-    position: relative;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+body, html {
+    height: 100%;
+    display: grid;
 }
 
-/* #main_map {
-    transform: scale(1.1);
-} */
+.pic {
+    margin: auto;
+    border: 1px solid black;
+}
+
+#main_map {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 
 .buildings {
