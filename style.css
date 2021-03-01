@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .pic {
-    scale: 1;
     position: relative;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* #main_map {
+    transform: scale(1.1);
+} */
 
 
 .buildings {
@@ -29,11 +33,11 @@
     left: 710px;
 }
 
-.lb-building {
+.lb_building {
     position: absolute;
-    width: 150px;
-    top: 400px;
-    left: 710px;
+    width: 140px;
+    top: 180px;
+    left: 577px;
 }
 
 

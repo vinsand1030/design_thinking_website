@@ -10,10 +10,9 @@
     </head>
     <body>
         <div class="pic">
-            <img class='pic' src="Isometric-Assets_DTWebinar1.jpg." usemap="#image-map" class="map">
+            <img id='main_map' src="Isometric-Assets_DTWebinar1.jpg." usemap="#image-map" class="map">
             <img class='buildings FEU' src='Buildings/FEU-Building.png'>
             <img class='buildings hospital' src='Buildings/hospital.png'>
-            <img class='buildings hospital' src='Buildings/LB-building.png'>
             <img class='buildings lb_building' src='./Buildings/LB-building.png'>
         </div>
 
