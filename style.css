@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    /* background-color: rgba(93,172,151,255); */
+    background-color: rgba(93,172,151,255);
     font-family: 'Nunito', sans-serif;
 }
 
@@ -14,7 +14,6 @@ body {
 .parent {
     /* position: absolute; */
     height: 100vh;
-    background-color: pink;
 }
 
 .main_map_div {
@@ -24,7 +23,6 @@ body {
     height: 70%;
     width: 70%;
     transform: translate(-50%, -50%);
-    background-color: red;
 }
 
  #main_map {
