@@ -9,13 +9,15 @@
         <link rel='stylesheet' href='hover.css'>
     </head>
     <body>
-        <div class="pic">
+        <div class='parent'>
             <img id='main_map' src="./Design Thinking Map Only.png" usemap="#image-map" class="map">
-            <img class='buildings FEU' src='Buildings/FEU-Building.png'>
-            <img class='buildings hospital' src='Buildings/hospital.png'>
-            <img class='buildings lb_building' src='./Buildings/LB-building.png'>
+            <div class="building_div">
+                <img class='buildings FEU' src='Buildings/FEU-Building.png'>
+                <img class='buildings hospital' src='Buildings/hospital.png'>
+                <img class='buildings lb_building' src='./Buildings/LB-building.png'
+            </div>
+            
         </div>
-
-        
+            
     </body>
 </html>
