@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.pic {
+    scale: 1;
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.buildings {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    border: 1px solid black;
+}
+
+.FEU {
+    position: absolute;
+    top: 258px;
+    left: 220px;
+}
+
+.hospital {
+    position: absolute;
+    top: 306px;
+    left: 635px;
+}
+
+.FEU:hover {
+    transform: scale(1.1);
+}
+
+.hospital:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-color: rgba(93,172,151,255);
+    font-family: 'Nunito', sans-serif;;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 70px;
+    margin:0;
+    position: absolute;
+    top:20px;
+    left:10px;
+}
