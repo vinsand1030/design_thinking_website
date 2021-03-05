@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>  
+        <title>Design Thinking Virtual Map</title> 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +10,29 @@
         <link rel='stylesheet' href='hover.css'>
     </head>
     <body>
+        
         <div class="pic">
-            <img id='main_map' src="./map_only.jpg">
+            <img id='main_map' src="./map_only.jpg" usemap="#image-map">
             <div class='feu_div'>
-                <a href='#' target='_blank'><img class='buildings FEU' src='Buildings/FEU-Building.png'></a>
+                <a href='https://bit.ly/30b962v' target='_blank'>
+                    <img class='buildings FEU' src='Buildings/FEU-Building.png' onmouseover='playSound()' onmouseout='stopSound()'>
+                </a>
                 <img class='logo main_logo' src='./logo/mainroom2.png'>
                 <img class='text main_text' src='./text/main-text.png'>
             </div>
             
-            <div class='pharmacy_div'>
+            <a href='https://meet.google.com/jnq-istt-sgi' target='_blank'>
+              <div class='pharmacy_div' onmouseover='playSound()' onmouseout='stopSound()'>
                 <img class='buildings pharmacy' src='./Buildings/pharmacy.png'>
                 <img class='logo mentor_4' src='./logo/breakout.png'>
                 <img class='text menguin' src='./text/menguin.png'>
             </div>
+            </a>
+            
             
             <div class='hospital_div'>
-                <a href='https://meet.google.com/rdk-ponq-hrs' target='_blank'>
-                    <img class='buildings hospital' src='Buildings/hospital.png'>
+                <a href='https://meet.google.com/tsg-xvkg-tua' target='_blank'>
+                    <img class='buildings hospital' src='Buildings/hospital.png' onmouseover='playSound()' onmouseout='stopSound()'>
                 </a>
                 <img class='logo mentor_3' src='./logo/breakout.png'>
                 <img class='text valencia' src='./text/valencia.png'>
@@ -34,7 +41,7 @@
             
             <div class='lb_div'>
                 <a href='https://hubs.mozilla.com/Q3bdUNe/break-room-3' target='_blank'>
-                    <img class='buildings lb_building' src='./Buildings/LB-building.png'>
+                    <img class='buildings lb_building' src='./Buildings/LB-building.png' onmouseover='playSound()' onmouseout='stopSound()'> 
                 </a>
                 
                 <img class='logo break_3' src='./logo/vr.png'>
@@ -42,20 +49,26 @@
             </div>
 
             <div class='apartment_div'>
-                <img class='buildings apartment' src='./Buildings/apartment.png'>
+                <a href='https://hubs.mozilla.com/ozTSZ4D/mezzanine-3'  target="_blank">
+                  <img class='buildings apartment' src='./Buildings/apartment.png' onmouseover='playSound()' onmouseout='stopSound()'>
+                </a>
+                
                 <img class='logo mezz_3' src='./logo/vr.png'>
                 <img class='text vrmezz_3' src='./text/VR-MEZZA3.png'>
             </div>
             
             <div class='blue_div'>
-                <img class='buildings blue_building' src='./Buildings/blue-building.png'>
+                <a href='https://hubs.mozilla.com/eCMnFki/mezzanine-2' target='_blank'>
+                  <img class='buildings blue_building' src='./Buildings/blue-building.png' onmouseover='playSound()' onmouseout='stopSound()'>
+                </a>
+                
                 <img class='logo mezz_2' src='./logo/vr.png'>
                 <img class='text vrmezz_2' src='./text/VR-MEZZA2.png'>
             </div>
 
             <div class='bakery_div'>
                 <a href='https://hubs.mozilla.com/NuDSEz4/mezzanine' target='_blank'>
-                    <img class='buildings bakery' src='./Buildings/bakery.png'>
+                    <img class='buildings bakery' src='./Buildings/bakery.png' onmouseover='playSound()' onmouseout='stopSound()'>
                 </a>
                 <img class='logo mezz_1' src='./logo/vr.png'>
                 <img class='text vrmezz_1' src='./text/VR-MEZZA1.png'>
@@ -63,7 +76,7 @@
             
             <div class='bank_div'>
                 <a href='https://hubs.mozilla.com/gsxyPXo/break-room-2' target='_blank'>
-                    <img class='buildings bank' src='./Buildings/bank.png'>
+                    <img class='buildings bank' src='./Buildings/bank.png' onmouseover='playSound()' onmouseout='stopSound()'>
                 </a>
                 
                 <img class='logo break_2' src='./logo/vr.png'>
@@ -71,14 +84,17 @@
             </div>
             
             <div class='white_div'>
-                <img class='buildings white' src='./Buildings/white.png'>
+                <a href='https://meet.google.com/dok-kckc-vrz' target='_blank'>
+                  <img class='buildings white' src='./Buildings/white.png' onmouseover='playSound()' onmouseout='stopSound()'>
+                </a>
+                
                 <img class='logo mentor_5' src='./logo/breakout.png'>
                 <img class='text leo' src='./text/leo.png'>
             </div>
             
             <div class='triplets_div'>
-                <a href='https://meet.google.com/fbe-wscz-iwb' target='_blank'>
-                    <img class='buildings triplets' src='./Buildings/triplets.png'>
+                <a href='https://meet.google.com/eor-nkif-dub' target='_blank'>
+                    <img class='buildings triplets' src='./Buildings/triplets.png' onmouseover='playSound()' onmouseout='stopSound()'>
                 </a>
                 
                 <img class='logo mentor_2' src='./logo/breakout.png'>
@@ -87,7 +103,7 @@
             
             <div class='small_triplets_div'>
                 <a href='https://hubs.mozilla.com/euvLZWi/break-room-1' target='_blank'>
-                    <img class='buildings small_triplets' src='./Buildings/small_triplets.png'>
+                    <img class='buildings small_triplets' src='./Buildings/small_triplets.png' onmouseover='playSound()' onmouseout='stopSound()'>
                 </a>
                 
                 <img class='logo break_1' src='./logo/vr.png'>
@@ -95,31 +111,55 @@
             </div>
             
             <div class='beige_div'>
-                <a href='https://meet.google.com/ibb-svhq-hma' target='_blank'>
-                    <img class='buildings beige' src='./Buildings/beige.png'>
+                <a href='https://meet.google.com/kwg-ysrx-vcq' target='_blank'>
+                    <img class='buildings beige' src='./Buildings/beige.png' onmouseover='playSound()' onmouseout='stopSound()'>
                 </a>
-                
                 <img class='logo mentor_1' src='./logo/breakout.png'>
                 <img class='text ria' src='./text/corral.png'>
             </div>
             
             <div class='corner_div'>
-                <img class='buildings corner' src='./Buildings/corner.png'>
+                <a href='https://hubs.mozilla.com/45xuGov/mature-infatuated-domain' target='_blank'>
+                  <img class='buildings corner' src='./Buildings/corner.png' onmouseover='playSound()' onmouseout='stopSound()'> 
+                </a>
                 <img class='logo mpr_3' src='./logo/vr.png'>
                 <img class='text vrmpr_3' src='./text/VR-MPR3.png'>
             </div>
             
             <div class='tallest_div'>
-                <img class='buildings tallest' src='./Buildings/tallest.png'>
+                <a href='https://hubs.mozilla.com/UKWfFWS/affectionate-insistent-space' target='_blank'>
+                  <img class='buildings tallest' src='./Buildings/tallest.png' onmouseover='playSound()' onmouseout='stopSound()'>
+                </a>
+                
                 <img class='logo mpr_2' src='./logo/vr.png'>
                 <img class='text vrmpr_2' src='./text/VR-MPR2.png'>
             </div>
             
             <div class='cafe_div'>
-                <img class='buildings cafe' src='./Buildings/cafe.png'>
+                <a href='https://hubs.mozilla.com/ZTALnYy/friendly-nice-camp' target='_blank'>
+                  <img class='buildings cafe' src='./Buildings/cafe.png' onmouseover='playSound()' onmouseout='stopSound()'>
+                </a>
                 <img class='logo mpr_1' src='./logo/vr.png'>
                 <img class='text vrmpr_1' src='./text/VR-MPR1.png'>
             </div>
         </div>
+
+        <map name="image-map">
+            <area target="" alt="Red Car" title="red_car" id='red_car' href="" coords="601,409,615,399,631,413,620,422" shape="poly" onmous>
+        </map>
+
+        <audio src='swoosh2.mp3' id='swoosh'>
+        <script>
+            function playSound(){
+                var sound = document.getElementById("swoosh");
+                sound.play();
+            }
+
+            function stopSound() {
+                var sound=document.getElementById("swoosh");
+                sound.stop();
+                sound.currentTime = 0;
+            }
+        </script>
     </body>
 </html>
